@@ -3,3 +3,5 @@ http://selenium.googlecode.com/git/docs/api/java/index.html
 
 
 jetty
+
+java -cp target/webdriver-0.0.1-SNAPSHOT.jar jetty.jettystudy
