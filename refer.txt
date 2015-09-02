@@ -4,4 +4,4 @@ http://selenium.googlecode.com/git/docs/api/java/index.html
 
 jetty
 
-java -cp target/webdriver-0.0.1-SNAPSHOT.jar jetty.jettystudy
+mvn clean;mvn package;java -cp target/webdriver-0.0.1-SNAPSHOT.jar test.hw;java -cp target/webdriver-0.0.1-SNAPSHOT.jar jetty.jettystudy
