@@ -14,7 +14,7 @@ public class HelloHandler extends AbstractHandler{
 		response.setContentType("text/html;charset=utf-8");
 		response.setStatus(HttpServletResponse.SC_OK);
 		((Request) baseRequest).setHandled(true);
-		response.getWriter().println("<h1>Hello word! </h1>");
+		response.getWriter().println("<title>Hello word! </title> <h1>Sample Hello, World Application</h1>");
 		
 
 	}

@@ -7,3 +7,10 @@ jetty
 mvn clean;mvn package;java -cp target/webdriver-0.0.1-SNAPSHOT.jar test.hw
 
 mvn clean;mvn package;java -jar target/webdriver-with-dependency.jar
+
+
+http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty
+
+learn many language 
+
+http://www.runoob.com/servlet/servlet-useful-resources.html

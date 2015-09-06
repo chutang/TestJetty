@@ -19,7 +19,7 @@ public class Openurl {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.baidu.com");
 		WebElement element = driver.findElement(By.id("kw"));
-		element.sendKeys("合肥天气");
+		element.sendKeys("local");
 		Actions action = new Actions(driver);
 		action.click(driver.findElement(By.id("su"))).build().perform();
 		//logger.info(element.getAttribute("value"));
